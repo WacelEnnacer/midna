@@ -1,11 +1,18 @@
-# Gitignore itself
-.gitignore
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
+*.pyo
+*.pyd
 
+# Backup files
+*.bak
+*.backup
+*.orig
+*.swp
+*.swo
+*~
 release.yml.backup
 
 # Distribution / packaging
@@ -43,6 +50,13 @@ coverage.xml
 .pytest_cache/
 cover/
 
+# Linters and formatters
+.ruff_cache/
+.pylint.d/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
 # Environments
 .env
 .venv
@@ -55,13 +69,11 @@ venv.bak/
 # IDEs and editors
 .idea/
 .vscode/
-*.swp
-*.swo
-*~
 *.iml
 .project
 .classpath
 .settings/
+*.code-workspace
 
 # OS generated files
 .DS_Store
@@ -81,3 +93,8 @@ logs/
 # Build and package artifacts
 *.manifest
 *.spec
+
+# Temporary files
+*.tmp
+*.temp
+.~*
