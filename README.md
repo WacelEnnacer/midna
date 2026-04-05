@@ -265,3 +265,13 @@ Jassem Manita
 GitHub: [@viraxi](https://github.com/viraxi)
 Maintainer Email: jasemmanita@viraxi.tech
 Org Contact: contact@viraxi.tech
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=viraxi%2Fmidna&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=viraxi/midna&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=viraxi/midna&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=viraxi/midna&type=date&legend=top-left" />
+ </picture>
+</a>
